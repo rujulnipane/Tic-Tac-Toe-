@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Silkscreen', cursive;
+}
+
+.nav{
+    border: 2px solid black;
+    padding: 12px 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.nav ul li{
+    list-style: none;;
+}
+.gamecontainer{
+    display: flex;
+    padding-top: 10px;
+    /* border: 2px solid black; */
+    /* background-color: gray; */
+    margin: auto;
+    /* height: 60vh; */
+    justify-content: center;
+    /* align-items: center; */
+}
+/* font-family: 'Teko', sans-serif; */
+
+.gamegrid{
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: repeat(3,6vw);
+    grid-template-rows: repeat(3,6vw);
+}
+
+.boxes{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes:hover{
+    cursor: pointer;
+}
+
+.gameinfo{
+    padding: 10px 10px;
+    border: 2px solid black;
+    margin: 0px 10px;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+}
+
+#winimg{
+    width: 0%;
+
+}
+
+#reset{
+    background-color: white;
+    cursor: pointer;
+}
+
+.br-t{
+    border-top: none;
+}
+.br-l{
+    border-left: none;
+}
+.br-r{
+    border-right: none;
+}
+.br-b{
+    border-bottom: none;
+}
